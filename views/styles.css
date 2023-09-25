@@ -1,0 +1,86 @@
+/* Reset some default styles to ensure consistency across browsers */
+body,
+h1,
+p,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Style the table */
+.greyTable {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+.greyTable th,
+.greyTable td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ccc;
+}
+
+.greyTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.greyTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style links within the table */
+.greyTable a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.greyTable a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for the new terms */
+.greyTable td.term {
+  font-weight: bold;
+}
+
+.greyTable td.description {
+  font-style: italic;
+}
+
+.greyTable td.references {
+  font-size: 14px;
+  color: #777;
+}
